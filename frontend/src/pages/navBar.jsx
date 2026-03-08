@@ -78,6 +78,9 @@ export function Navbar({ COLORS }) {
             </a>
           ))}
           <button
+          onClick={() => {
+            router("/auth");
+          }}
             className="mt-2 text-black font-bold text-sm px-6 py-3 rounded-full w-full"
             style={{
               background: `linear-gradient(135deg, ${COLORS.cyan}, ${COLORS.violet})`,

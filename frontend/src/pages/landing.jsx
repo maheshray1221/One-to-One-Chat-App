@@ -47,7 +47,7 @@ export default function LandingPage() {
 
   return (
     <div className="min-h-screen bg-[#050810]">
-      <Navbar COLORS={COLORS}/>
+      <Navbar COLORS={COLORS} />
       <Hero COLORS={COLORS}/>
       <Stats COLORS={COLORS}/>
       <Features COLORS={COLORS} />
