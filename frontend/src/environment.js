@@ -1,15 +1,8 @@
+let IS_PROD = true;
+const server = IS_PROD ?
+    "https://one-to-one-chat-app-backend.onrender.com" :
 
-const server = "http://localhost:8000";
+    "http://localhost:8000"
 
 
 export default server;
-
-
-// let IS_PROD = true;
-// const server = IS_PROD ?
-//     "https://apnacollegebackend.onrender.com" :
-
-//     "http://localhost:8000"
-
-
-// export default server;
