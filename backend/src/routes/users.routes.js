@@ -10,4 +10,8 @@ router.route("/register").post(register)
 router.route("/add_to_activity").post(addToHistory)
 router.route("/get_all_activity").get(getUserHistory)
 
+router.get("/health", (req, res) => {
+  res.status(200).json({ message: "Server is alive" })
+})
+
 export default router;
